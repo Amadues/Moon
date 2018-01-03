@@ -7,11 +7,11 @@ tags: [sample post, images, test]
 comments: true
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+下面是一些图片的例子。如果您想要在对方的旁边显示两到三张图片，请用“figure”来表示相应的“class”。“图”的每个实例都自动编号并显示在标题中。
 
-### Figures (for images or video)
+### 数字(图像或视频)
 
-#### One Up
+#### 一张
 
 <figure>
 	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
@@ -20,7 +20,7 @@ Here are some examples of what a post with images might look like. If you want t
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
-#### Two Up
+#### 两张
 
 Apply the `half` class like so to display two images side by side that share the same caption.
 
@@ -40,9 +40,9 @@ And you'll get something that looks like this:
 	<figcaption>Two images.</figcaption>
 </figure>
 
-#### Three Up
+#### 三张
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+应用`third`类，像这样显示三个图片并排显示相同的标题
 
 {% highlight html %}
 <figure class="third">
@@ -53,7 +53,7 @@ Apply the `third` class like so to display three images side by side that share 
 </figure>
 {% endhighlight %}
 
-And you'll get something that looks like this:
+你会得到一个像这样的东西:
 
 <figure class="third">
 	<img src="http://placehold.it/600x300.jpg">
@@ -62,13 +62,15 @@ And you'll get something that looks like this:
 	<figcaption>Three images.</figcaption>
 </figure>
 
-### Alternative way
+### 替代方法
 
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
+另一种达到同样效果的方法是将“画廊”的液体模板包括进去。在这种情况下,你
 
-Here is the block you might want to use:
+不必编写任何HTML标记——只需复制一小块代码，调整参数(见下面)
+
+并在这个块中填充任意数量的图像链接。您可以混合相关和外部链接。
+
+这里是您可能想要使用的块:
 
 {% highlight liquid %}
 {% raw %}
@@ -81,13 +83,13 @@ Here is the block you might want to use:
 {% endraw %}
 {% endhighlight %}
 
-Parameters:
+参数:
 
 - `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
 - `cols`: Sets the number of columns of the gallery.
-Available values: [1..3].
+可用值: [1..3].
 
-It will look something like this:
+它大概是这样的:
 
 {% capture images %}
 	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png

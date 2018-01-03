@@ -1,5 +1,11 @@
 ---
-title: Markdown学习笔记
+layout: post
+title: "Markdown语法笔记"
+date: 2018-1-1
+excerpt: "简述Markdown语法."
+tags: [Markdown, 笔记, 语法]
+feature: http://i.imgur.com/Ds6S7lJ.png
+comments: true
 ---
 
 # 1.标题

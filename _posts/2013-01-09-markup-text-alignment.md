@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "标记:文本对齐"
-date:   2017-12-25
-excerpt: "简述文本对齐"
-project: true
-tag:[文本，对齐]
-- jekyll 
-- moon
-- blog
-- about
-- theme
+title: "文本对齐"
+date: 2017-12-25
+excerpt: "简述文本对齐."
+tags: [对齐, 文本, post]
+feature: http://i.imgur.com/Ds6S7lJ.png
 comments: true
 ---
 

@@ -8,7 +8,7 @@ logo:               'https://avatars2.githubusercontent.com/u/28755654?s=460&v=4
 background:         'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1515595067&di=765b70e8d5a4c430ab6842e24cf893ce&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F6%2F593e46d6e5539.jpg'
 tiled_bg:           true
 locale:             en_US
-url:                https://Amadues.github.io/Moon
+url:                https://Amadues.github.io
 
 # Jekyll
 permalink:          /:title/

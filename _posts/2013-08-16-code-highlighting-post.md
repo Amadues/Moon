@@ -73,7 +73,7 @@ end
 
 ### Fenced Code Blocks
 
-To modify styling and highlight colors edit `/assets/css/syntax.css`. Line numbers and a few other things can be modified in `_config.yml`. Consult [Jekyll's documentation](http://jekyllrb.com/docs/configuration/) for more information.
+T要修改样式和突出颜色，编辑`/assets/css/syntax.css`.行号和其他一些东西可以修改 `_config.yml`. 咨询 [Jekyll's documentation](http://jekyllrb.com/docs/configuration/)得到更多的信息。
 
 ~~~ css
 #container {
@@ -114,8 +114,8 @@ module Jekyll
 end
 ~~~
 
-### GitHub Gist Embed
+### GitHub要点嵌入
 
-An example of a Gist embed below.
+下面是一个要点的例子。
 
 {% gist mmistakes/6589546 %}

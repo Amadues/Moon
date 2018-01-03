@@ -12,101 +12,57 @@ tag:
 comments: true
 ---
 
-## HTML Elements
+# 1.标题
+标题有Setext和Atx两种风格：
+![Mou icon](https://i.loli.net/2018/01/03/5a4c976c63d4c.png)
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9b31cf38e.png)
+***
+# 2.引用
+行首使用 > 加上一个空格表示引用一个段落，可嵌套
+> 引用
+> > 我再引用
+![Mou icon](https://i.loli.net/2018/01/03/5a4c987c29797.png)
+***
+# 3.分割线
+在一行连续使用三个或以上_或*:
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c992234c.png)
+# 4.代码区域
+代码区域内的文字不会被处理，按照原样输出。
+每一行前边加入4个空格或者一个tab可以标记一个代码段落：
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c996e2d8.png)
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+效果:
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c996f9aa.png)
 
-# Heading 1
+还可以使用`内容`来标记行内代码
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c9970e8f.png)
+***
+# 5.强调
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c9971d69.png)
+***
+# 6.链接
+Markdown有两种链接方式：Inline以及Reference
+## 文字链接
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c99721d7.png)
+## 图像链接
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c9972658.png)
+### 自动链接
+使用尖括号<>包含住一段地址或者邮箱
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c9972b2d.png)
+***
+#  7.转义字符
+Markdown中的转义字符为\，可以转义的有：
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c9972f33.png)
+***
+# 8.列表
+## 无序列表
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9c997345a.png)
+## 有序列表
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9d3cbc8d1.png)
+***
+# 9.** Latex **
+这个不属于Markdown的范畴了。我是先在如何在Markdown中显示链接中带括号的图看到这种在Markdown中插入latex的方法。照抄6.链接一节的例子
+![Mou icon](https://i.loli.net/2018/01/03/5a4c9d22e71eb.png)
+其实就是插入一张来自http://latex.codecogs.com的图片，方案略为凶残，但很实用。
 
-## Heading 2
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### Body text
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image](https://mmistakes.github.io/minimal-mistakes/images/3953273590_704e3899d5_m.jpg)
-{: .image-right}
-
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-
-## Code Snippets
-
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
-
-## KBD
-
-You can also use `<kbd>` tag for keyboard buttons.
-
-{% highlight html %}
-<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
-{% endhighlight %}
-
-Press <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to move your car. **Midtown Maddness!!**
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}

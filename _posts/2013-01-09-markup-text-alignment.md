@@ -1,35 +1,40 @@
 ---
 layout: post
-title: "Markup: Text Alignment"
-categories:
-  - Markup
-tags:
-  - alignment
-  - content
-  - css
-  - markup
+title:  "标记:文本对齐"
+date:   2017-12-25
+excerpt: "简述文本对齐"
+project: true
+tag:[文本，对齐]
+- jekyll 
+- moon
+- blog
+- about
+- theme
+comments: true
 ---
 
 ### Default
 
-This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.
+这是一个段落。它不应该有任何形式的对齐。它应该像你通常期望的那样流动。没有什么幻想。纯文字，自由流淌，充满爱。完全中立，不选择侧边或坐在栅栏上。它只是。只是该死的。它喜欢它在哪里。它不觉得有必要选择一边。离开他。那样会更好。相信我。
 
 ### Left Align
 
-This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it's views. It's favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.
+372/5000  
+这是一个段落。这是左对齐。正因为如此，它的观点更自由。最喜欢的颜色是绿色。左对齐倾向于更环保，但它并没有提供确凿的证据。尽管它喜欢平均分配财富，但它使平等分配达到合理的一致性。
 {: style="text-align: left;"}
 
 ### Center Align
 
-This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.
+这是一个段落。这是中心对齐。中心是，但是自然，一个栅栏的保姆。一个翻转变节者。要决定它的想法是很困难的。它想选边。真的,它。它有最好的意图，但它往往使事情复杂化而不是帮助。你能做的最好的事就是争取胜利，并希望得到最好的结果。我听说居里有受贿。
 {: style="text-align: center;"}
 
 ### Right Align
 
-This is a paragraph. It is right aligned. It is a bit more conservative in it's views. It's prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it's a pretty good shot from at least four or five football fields away. Dead on. So boss.
+这是一个段落。这是右对齐。它在观点上有点保守。它更倾向于不被告知该做什么或如何去做。右对齐完全拥有大量的枪支，并且喜欢在一定范围内进行练习。这很酷。我的意思是，这是一个很好的机会，从至少四到五个足球场远。死。所以老板。
 {: style="text-align: right;"}
 
 ### Justify Align
-
-This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it's place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.
+384/5000  
+这是一个段落。这是证明一致。当人们把它和贾斯汀·汀布莱克联系在一起的时候，它就会变得很疯狂。一般来说，合理的做法是相当直接的。它喜欢一切都在它的位置，而不是所有的cattywampus，像其他的同盟。我并不是说这比其他的同盟要好，但它确实倾向于推迟更多的精英主义的态度。
 {: style="text-align: justify;"}
+

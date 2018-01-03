@@ -3,7 +3,8 @@
 }
 
 body {
-	padding: 1rem .5rem;
+	blackground-image:url("https://i.loli.net/2018/01/04/5a4d1e8d4fddf.jpg")
+    padding: 1rem .5rem;
 	font-size: 1.3rem;
 	line-height: 1.2;
 	max-width: 60rem;

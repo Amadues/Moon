@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "A Post with Images"
-date: 2013-05-22
-excerpt: "Examples and code for displaying images in posts."
+title: "一片关于图像的文章"
+date: 2016-12-26
+excerpt: "简单的图像代码."
 tags: [sample post, images, test]
 comments: true
 ---

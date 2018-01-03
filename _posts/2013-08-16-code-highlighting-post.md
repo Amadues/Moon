@@ -3,7 +3,7 @@ layout: post
 title: 语法高亮的帖子
 date: 2016-12-24
 excerpt: "Demo post展示了在Markdown中突出显示代码的各种方法。"
-tags: [sample post, code, highlighting]
+tags: [代码, 高亮]
 comments: true
 ---
 

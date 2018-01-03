@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-date: 2013-08-16
-excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
+title: 语法高亮的帖子
+date: 2016-12-24
+excerpt: "Demo post展示了在Markdown中突出显示代码的各种方法。"
 tags: [sample post, code, highlighting]
 comments: true
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+语法高亮显示是一个以不同的颜色和字体显示源代码的特性。该特性促进了用结构化语言编写，如编程语言或标记语言，因为结构和语法错误在视觉上是截然不同的。高亮显示不会影响文本本身的含义;它只适用于人类读者。[^1]
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-### Highlighted Code Blocks
+### 突出显示的代码块
 
-To modify styling and highlight colors edit `/assets/css/syntax.css`.
+修改样式和突出颜色编辑 `/assets/css/syntax.css`.
 
 {% highlight css %}
 #container {
@@ -57,7 +57,7 @@ end
 {% endhighlight %}
 
 
-### Standard Code Block
+### Standard 代码块
 
     {% raw %}
     <nav class="pagination" role="navigation">
@@ -71,7 +71,7 @@ end
     {% endraw %}
 
 
-### Fenced Code Blocks
+### 坚固的代码块
 
 T要修改样式和突出颜色，编辑`/assets/css/syntax.css`.行号和其他一些东西可以修改 `_config.yml`. 咨询 [Jekyll's documentation](http://jekyllrb.com/docs/configuration/)得到更多的信息。
 

@@ -1,6 +1,6 @@
 ---
-layout: project
-title: All Projects
-excerpt: "A List of Projects"
+layout: infovis
+title: All infovis
+excerpt: "A List of infovis"
 comments: false
 ---

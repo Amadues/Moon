@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: article
 title: All portfolio
 excerpt: "A List of portfolio"
 comments: false

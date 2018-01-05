@@ -21,13 +21,13 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project == null %}
+                <div class="portfolio">
+                    {% for portfolio in site.portfolio %} 
+                        {% if portfolio.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{portfolio.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
+                            <a class="zoombtn" href="{{ site.url }}{{portfolio.url }}">{{ portfolio.title }}</a>
+                            <p>{{ portfolio.excerpt }}</p>
                             <a href="{{ site.url }}{{ portfolio.url }}" class="btn zoombtn">Read More</a>
                         </li>
                     </ul>
